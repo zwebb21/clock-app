@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+ 
+
+    <style>
+      #watch-interface-bg {
+        background-color: rgb(63, 42, 42);
+        width: 800px;
+        height: 800px;
+        margin:auto;
+        border-radius:23px;
+        margin-top:120px;
+        clip-path: polygon(50% 0%, 80% 10%, 100% 35%, 100% 70%, 80% 90%, 50% 100%, 20% 90%, 0% 70%, 0% 35%, 20% 10%);
+        
+      }
+
+
+
+      #watch-interface-inner-bg{
+        background-color: rgb(623, 45, 42);
+        width:350px;
+        height: 400px;
+        margin:auto;
+        border-radius:23px;
+   
+
+      }
+
+
+#Print {
+
+font-family: impact;
+text-align:center;
+margin:auto;
+font-size:155px;
+color:beige;
+
+      
+
+}
+
+      #msg {
+color:beige;
+text-align:center;
+/* margin:auto */
+font-size:55px;
+margin-top: 44px;
+
+      }
+
+
+
+      body {
+        text-align: center;
+        background-color:beige;
+      }
+
+
+
+      .ip{
+        font-family:courier;
+color:beige;
+padding:2rem;
+margin-bottom:12px;
+
+      }
+
+      #plus:hover {
+  background-color:teal; /* Color when hovered */
+}
+#plus{
+  cursor: pointer;
+ 
+  color:black;
+  background-color:beige;
+  width:12.5px;
+  height:13.7px;
+  padding:8px;
+border-radius:4.23px;
+
+}
+
+#Minus:hover {
+  color:white;
+  background-color:black; /* Color when hovered */
+}
+
+#Minus{
+  cursor:pointer;
+  background-color:beige;
+  width:13.5px;
+  height:13.7px;
+  padding:8px;
+border-radius:4.23px;
+
+}
+
+#btn-row{
+
+flex:auto;
+justify:space-around;
+
+}
+
+
+
+
+
+
+#text-box{
+
+padding:12px;
+width:auto;
+height:auto;
+}
+
+
+
+
+
+
+    </style>
+  </head>
+
+  <body>
+  <div id="watch-interface-bg">
+  
+
+  
+  <div id="watch-interface-inner-bg">
+  <p class="ip">Set Timer</p>
+  <span id="Print">
+  
+    
+    
+    </span>
+  
+  <div id="btn-row">
+  <span id="plus"> Add</span>
+  
+  <span id="Minus">Subtract</span>
+  </div>
+  
+  </div>
+  
+  <span id="msg"></span>
+
+
+<div class="form">
+
+
+
+<input type="text" id="text-box">
+
+
+
+
+</input>
+
+
+
+
+</div>
+
+
+
+</div>
+<script src="index.js"> </script>
+  </body>
+</html>
